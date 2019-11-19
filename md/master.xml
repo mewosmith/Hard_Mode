@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mdscript name="Master" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="D:\x4_extract_3.0b1/libraries/md.xsd">
+    <cues>
+        <cue name="Control" instantiate="true" checkinterval="60m" checktime="30s">
+            <actions>
+                <!-- <open_menu menu="CustomGameMenu" param="[0,0,'custom_creative',0,1,0]"/> -->
+                <!-- set the variables once -->
+                <do_if value="not $Initialized?">
+                    <set_value name="$Initialized" exact="true" />
+                    <!-- debug -->
+                    <set_value name="md.$DebugChance" exact="0" />
+                    <!-- globalnamespace -->
+                    <!-- Hard_Mode - scale pirate attacks against the player based on an accumulated score $Difficulty -->
+                    <create_group groupname="md.$Hard_Mode_Pirates_Group" />
+                    <create_group groupname="md.$Hard_Mode_Pirates_Bases_Group" />
+                    <set_value name="md.$Difficulty" exact="0" />
+                    <set_value name="md.$DifficultyMax" exact="100000" />
+                    <!-- relaton - hardcore sca and hat to -1 vs player and -5 vs rest-->
+                    <set_faction_known faction="faction.scaleplate" known="true" />
+                    <set_faction_known faction="faction.hatikvah" known="true" />
+                    <set_faction_relation_locked faction="faction.scaleplate" locked="false" />
+                    <set_faction_relation_locked faction="faction.hatikvah" locked="false" />
+                    <add_faction_relation faction="faction.scaleplate" otherfaction="faction.player" value="-1.0" reason="relationchangereason.destroyedfactionenemy" />
+                    <add_faction_relation faction="faction.hatikvah" otherfaction="faction.player" value="-1.0" reason="relationchangereason.destroyedfactionenemy" />
+                    <do_for_each in="lookup.faction.list">
+                        <do_if value="loop.element != faction.player">
+                            <add_faction_relation faction="faction.scaleplate" otherfaction="loop.element" value="-0.0032" reason="relationchangereason.destroyedfactionenemy" />
+                            <add_faction_relation faction="faction.hatikvah" otherfaction="loop.element" value="-0.0032" reason="relationchangereason.destroyedfactionenemy" />
+                        </do_if>
+                    </do_for_each>
+                    <set_faction_relation_locked faction="faction.scaleplate" locked="true" />
+                    <set_faction_relation_locked faction="faction.hatikvah" locked="true" />
+                    <!-- $ScriptRegistry - list of scripts to be called on the Master.Control interval -->
+                    <signal_cue_instantly cue="md.Listeners.Init_Listeners" />
+                    <signal_cue_instantly cue="md.Libraries.Init_Libraries" />
+                    <create_list name="$ScriptRegistry" />
+                    <append_to_list name="$ScriptRegistry" exact="md.Hard_Mode.Init_Hard_Mode" />
+                    <!-- debug -->
+                    <debug_to_file text="'start'" name="'master.log'" directory="'master'" append="false" chance="md.$DebugChance" />
+                    <debug_to_file text="'start'" name="'hard_mode.log'" directory="'hard_mode'" append="false" chance="md.$DebugChance" />
+                </do_if>
+                <!-- run scripts -->
+                <do_for_each in="$ScriptRegistry">
+                    <signal_cue_instantly cue="loop.element" />
+                </do_for_each>
+                <!-- maintain namespace -->
+                <find_station groupname="md.$Hard_Mode_Pirates_Bases_Group" space="player.galaxy" multiple="true" piratebase="true" />
+                <!-- <do_if value="player.age gt 600s">
+                    <do_for_each in="md.$Hard_Mode_Pirates_Group">
+                        <set_owner object="loop.element" faction="faction.player" overridenpc="true" />
+                        <set_known object="loop.element" known="true" />
+                        <set_known object="loop.element.zone" known="true" />
+                        <set_known object="loop.element.sector" known="true" />
+                        <set_known object="loop.element.cluster" known="true" />
+                    </do_for_each>
+                </do_if> -->
+            </actions>
+        </cue>
+        <library name="Debug">
+            <actions>
+                <debug_to_file text="'
+Cue %s |
+Time %s |
+event.name %s |
+event.object %s | event.object.knownname %s | event.object.owner.knownname %s |
+event.param %s |event.param.name %s | event.param.knownname %s | event.param.owner.knownname %s | event.param.sector.knownname %s |
+event.param2 %s |event.param2.name %s | event.param2.knownname %s | event.param2.owner.knownname %s | event.param2.sector.knownname %s |
+event.param3 %s |event.param3.name %s | event.param3.knownname %s | event.param3.owner.knownname %s | event.param3.sector.knownname %s |
+'.
+[
+this.name,
+player.age.formatted.default,
+@event.name,
+@event.object, @event.object.knownname, @event.object.owner.knownname,
+@event.param,@event.param.name, @event.param.knownname, @event.param.owner.knownname, @event.param.sector.knownname,
+@event.param2,@event.param2.name, @event.param2.knownname, @event.param2.owner.knownname, @event.param2.sector.knownname,
+@event.param3,@event.param3.name, @event.param3.knownname, @event.param3.owner.knownname, @event.param3.sector.knownname,
+]" name="'master.log'" directory="'master'" chance="md.$DebugChance" />
+            </actions>
+        </library>
+    </cues>
+</mdscript>

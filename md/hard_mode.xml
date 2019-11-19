@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mdscript name="Hard_Mode" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="D:\x4_extract_3.0b1/libraries/md.xsd">
+    <cues>
+        <cue name="Init_Hard_Mode" instantiate="true">
+            <conditions>
+                <event_cue_signalled />
+            </conditions>
+            <actions>
+                <!-- debug -->
+                <debug_to_file text="this.name" name="'init.log'" directory="'master'" chance="md.$DebugChance" />
+            </actions>
+            <cues>
+                <cue name="CreatePirateBase">
+                    <actions>
+                        <find_sector name="$Sectors" space="player.galaxy" owner="[faction.argon, faction.ownerless, faction.teladi, faction.ministry, faction.antigone]" multiple="true">
+                            <match macro="macro.cluster_black2_sector01_macro" negate="true" />
+                        </find_sector>
+                        <set_value name="$RandomSector" exact="$Sectors.random" />
+                        <set_value name="$Position" exact="[120km, 250km]" />
+                        <set_value name="$Owner" exact="[faction.scaleplate, faction.hatikvah]" />
+                    </actions>
+                    <cues>
+                        <cue name="Pirate_Base_Create_Enemies_LIB" ref="md.Libraries.Create_Station_LIB">
+                            <param name="Sector" value="$RandomSector" />
+                            <param name="Position" value="$Position" />
+                            <param name="Faction" value="$Owner.random" />
+                            <param name="Owner" value="$Owner.random" />
+                        </cue>
+                    </cues>
+                </cue>
+                <cue name="CreatePirates">
+                    <actions>
+                        <!-- NumberOfShips -->
+                        <set_value name="$Return" />
+                        <set_value name="$RescaleRangeTable" exact="table[
+                                {1} = table [
+                                    $Difficulty = md.$Difficulty,
+                                    $OldMax = md.$DifficultyMax,
+                                    $OldMin = 1,
+                                    $NewMax = 40,
+                                    $NewMin = 1,
+                                ]]" />
+                        <include_actions ref="md.Libraries.RescaleRange" />
+                        <set_value name="$NumberOfShips" exact="$Return" />
+                        <create_list name="$Size" />
+                        <do_while value="$Size.count lt $NumberOfShips">
+                            <append_to_list name="$Size" exact="class.ship_xl" chance="10" />
+                            <append_to_list name="$Size" exact="class.ship_l" chance="20" />
+                            <append_to_list name="$Size" exact="class.ship_m" chance="30" />
+                            <append_to_list name="$Size" exact="class.ship_s" chance="50" />
+                        </do_while>
+                        <find_object name="$PlayerObjects" owner="faction.player" class="[class.ship, class.station]" space="player.galaxy" multiple="true" sortbyvalue="loop.element.value" sortdescending="true" sortlimit="3" />
+                        <set_value name="$RandomValuableObject" exact="$PlayerObjects.random" />
+                        <find_station name="$PirateBases" space="player.galaxy" multiple="true" sortbygatedistanceto="$RandomValuableObject" piratebase="true" sortdescending="false" sortlimit="3" />
+                        <set_value name="$RandomPiratebase" exact="$PirateBases.random" />
+                        <do_for_each in="$PlayerObjects" chance="md.$DebugChance">
+                            <debug_to_file text="'Objects | value: %s | Name: %s | index %s'.[@loop.element.value, @loop.element.knownname, loop.index]" name="'hard_mode.log'" directory="'hard_mode'" chance="md.$DebugChance" />
+                        </do_for_each>
+                        <do_for_each in="$PirateBases" chance="md.$DebugChance">
+                            <debug_to_file text="'Bases | dist: %s | Name: %s | Target %s| index %s'.[@loop.element.gatedistance.{player.ship}, @loop.element.knownname, $PlayerObjects.{1}.knownname, loop.index]" name="'hard_mode.log'" directory="'hard_mode'" chance="md.$DebugChance" />
+                        </do_for_each>
+                        <!-- pilot skill -->
+                        <set_value name="$Return" />
+                        <set_value name="$RescaleRangeTable" exact="table[
+                                {1} = table [
+                                    $Difficulty = md.$Difficulty,
+                                    $OldMax = md.$DifficultyMax,
+                                    $OldMin = 1,
+                                    $NewMax = 15,
+                                    $NewMin = 1,
+                                ]]" />
+                        <include_actions ref="md.Libraries.RescaleRange" />
+                        <include_actions ref="md.Master.Debug" chance="md.$DebugChance" />
+                    </actions>
+                    <cues>
+                        <cue name="Pirates_Create_Enemies_LIB" ref="md.Libraries.Create_Enemies_LIB">
+                            <param name="NumberOfShips" value="$NumberOfShips" />
+                            <param name="Size" value="$Size" />
+                            <param name="Zone" value="$RandomPiratebase.zone" />
+                            <param name="Target" value="$RandomValuableObject" />
+                            <param name="Owner" value="faction.criminal" />
+                            <param name="Faction" value="$RandomPiratebase.owner" />
+                            <param name="Skill_Boarding" value="$Return" />
+                            <param name="Skill_Engineering" value="$Return" />
+                            <param name="Skill_Management" value="$Return" />
+                            <param name="Skill_Morale" value="$Return" />
+                            <param name="Skill_Piloting" value="$Return" />
+                            <param name="ReturnGroup" value="md.$Hard_Mode_Pirates_Group" />
+                        </cue>
+                    </cues>
+                </cue>
+                <cue name="CreatePiratePatrols">
+                    <actions>
+                        <!-- NumberOfShips -->
+                        <set_value name="$Return" />
+                        <set_value name="$RescaleRangeTable" exact="table[
+                                {1} = table [
+                                    $Difficulty = md.$Difficulty,
+                                    $OldMax = md.$DifficultyMax,
+                                    $OldMin = 1,
+                                    $NewMax = 40,
+                                    $NewMin = 4,
+                                ]]" />
+                        <include_actions ref="md.Libraries.RescaleRange" />
+                        <set_value name="$NumberOfShips" exact="$Return" />
+                        <create_list name="$Size" />
+                        <do_while value="$Size.count lt $NumberOfShips">
+                            <append_to_list name="$Size" exact="class.ship_xl" chance="5" />
+                            <append_to_list name="$Size" exact="class.ship_l" chance="10" />
+                            <append_to_list name="$Size" exact="class.ship_m" chance="30" />
+                            <append_to_list name="$Size" exact="class.ship_s" chance="80" />
+                        </do_while>
+                        <find_station name="$PirateBases" space="player.galaxy" multiple="true" piratebase="true" />
+                        <set_value name="$RandomPiratebase" exact="$PirateBases.random" />
+                        <find_station name="$Target" space="$RandomPiratebase.cluster" multiple="true" sortbyvalue="loop.element.value" sortdescending="false" sortlimit="3" />
+                        <!-- <do_for_each in="$PlayerObjects" chance="md.$DebugChance">
+                            <debug_to_file text="'Objects | value: %s | Name: %s | index %s'.[@loop.element.value, @loop.element.knownname, loop.index]" name="'hard_mode.log'" directory="'hard_mode'" chance="md.$DebugChance" />
+                        </do_for_each>
+                        <do_for_each in="$PirateBases" chance="md.$DebugChance">
+                            <debug_to_file text="'Bases | dist: %s | Name: %s | Target %s| index %s'.[@loop.element.gatedistance.{player.ship}, @loop.element.knownname, $PlayerObjects.{1}.knownname, loop.index]" name="'hard_mode.log'" directory="'hard_mode'" chance="md.$DebugChance" />
+                        </do_for_each> -->
+                        <!-- pilot skill -->
+                        <set_value name="$Return" />
+                        <set_value name="$RescaleRangeTable" exact="table[
+                                {1} = table [
+                                    $Difficulty = md.$Difficulty,
+                                    $OldMax = md.$DifficultyMax,
+                                    $OldMin = 1,
+                                    $NewMax = 15,
+                                    $NewMin = 1,
+                                ]]" />
+                        <include_actions ref="md.Libraries.RescaleRange" />
+                        <include_actions ref="md.Master.Debug" chance="md.$DebugChance" />
+                    </actions>
+                    <cues>
+                        <cue name="Pirates_Patrol_Create_Enemies_LIB" ref="md.Libraries.Create_Enemies_LIB">
+                            <param name="NumberOfShips" value="$NumberOfShips" />
+                            <param name="Size" value="$Size" />
+                            <param name="Zone" value="$RandomPiratebase.zone" />
+                            <param name="Target" value="$Target.random" />
+                            <param name="Owner" value="faction.criminal" />
+                            <param name="Faction" value="$RandomPiratebase.owner" />
+                            <param name="Skill_Boarding" value="$Return" />
+                            <param name="Skill_Engineering" value="$Return" />
+                            <param name="Skill_Management" value="$Return" />
+                            <param name="Skill_Morale" value="$Return" />
+                            <param name="Skill_Piloting" value="$Return" />
+                            <param name="ReturnGroup" value="md.$Hard_Mode_Pirates_Group" />
+                        </cue>
+                    </cues>
+                </cue>
+                <cue name="ApplyMods">
+                    <conditions>
+                        <event_cue_completed cue="CreatePirates" />
+                    </conditions>
+                    <!-- <delay exact="200ms" /> -->
+                    <cues>
+                        <cue name="Pirates_Apply_Equipment_Mods" ref="md.Libraries.Apply_Equipment_Mods"></cue>
+                    </cues>
+                </cue>
+            </cues>
+        </cue>
+    </cues>
+</mdscript>

@@ -1,0 +1,1024 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mdscript name="Hard_Mode_Lists" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="D:\x4_extract_3.0b1/libraries/md.xsd">
+    <cues>
+        <cue name="Pirate_Name_List">
+            <conditions>
+                <event_game_started />
+            </conditions>
+            <actions>
+                <create_list name="$PirateNameList" />
+                <append_to_list name="$PirateNameList" exact="'Silent Runner'" />
+                <append_to_list name="$PirateNameList" exact="'The Family Boat'" />
+                <append_to_list name="$PirateNameList" exact="'Lil Darlin'" />
+                <append_to_list name="$PirateNameList" exact="'Runamuck'" />
+                <append_to_list name="$PirateNameList" exact="'Delusions'" />
+                <append_to_list name="$PirateNameList" exact="'Spindrift'" />
+                <append_to_list name="$PirateNameList" exact="'Night Flyer'" />
+                <append_to_list name="$PirateNameList" exact="'New Adventure'" />
+                <append_to_list name="$PirateNameList" exact="'Lil Floozy'" />
+                <append_to_list name="$PirateNameList" exact="'Tantrum'" />
+                <append_to_list name="$PirateNameList" exact="'Wind Of Change'" />
+                <append_to_list name="$PirateNameList" exact="'Mermaid II'" />
+                <append_to_list name="$PirateNameList" exact="'Game Over'" />
+                <append_to_list name="$PirateNameList" exact="'Sea Dation'" />
+                <append_to_list name="$PirateNameList" exact="'London Lady'" />
+                <append_to_list name="$PirateNameList" exact="'Obsessive'" />
+                <append_to_list name="$PirateNameList" exact="'Grey Matter'" />
+                <append_to_list name="$PirateNameList" exact="'Two Seasons'" />
+                <append_to_list name="$PirateNameList" exact="'Tropical Dream'" />
+                <append_to_list name="$PirateNameList" exact="'Sea Mania'" />
+                <append_to_list name="$PirateNameList" exact="'Satisfaction III'" />
+                <append_to_list name="$PirateNameList" exact="'Finesse'" />
+                <append_to_list name="$PirateNameList" exact="'First Temptation'" />
+                <append_to_list name="$PirateNameList" exact="'Power Sailer'" />
+                <append_to_list name="$PirateNameList" exact="'Wind Chaser'" />
+                <append_to_list name="$PirateNameList" exact="'Pegasus'" />
+                <append_to_list name="$PirateNameList" exact="'Dwarf Star'" />
+                <append_to_list name="$PirateNameList" exact="'Splash Dance'" />
+                <append_to_list name="$PirateNameList" exact="'Pelicans Flight'" />
+                <append_to_list name="$PirateNameList" exact="'Laid Back'" />
+                <append_to_list name="$PirateNameList" exact="'Indigo'" />
+                <append_to_list name="$PirateNameList" exact="'Chinook'" />
+                <append_to_list name="$PirateNameList" exact="'Aurora IV'" />
+                <append_to_list name="$PirateNameList" exact="'Shibby'" />
+                <append_to_list name="$PirateNameList" exact="'Credit Plus'" />
+                <append_to_list name="$PirateNameList" exact="'Release'" />
+                <append_to_list name="$PirateNameList" exact="'Morning After'" />
+                <append_to_list name="$PirateNameList" exact="'Still Here'" />
+                <append_to_list name="$PirateNameList" exact="'Ruthless'" />
+                <append_to_list name="$PirateNameList" exact="'Weekend Paradise'" />
+                <append_to_list name="$PirateNameList" exact="'Sea Wisp'" />
+                <append_to_list name="$PirateNameList" exact="'Raven'" />
+                <append_to_list name="$PirateNameList" exact="'The Bobber'" />
+                <append_to_list name="$PirateNameList" exact="'Zen Glider'" />
+                <append_to_list name="$PirateNameList" exact="'Evanescence'" />
+                <append_to_list name="$PirateNameList" exact="'Star Attraction'" />
+                <append_to_list name="$PirateNameList" exact="'Marginal'" />
+                <append_to_list name="$PirateNameList" exact="'Red Dawn'" />
+                <append_to_list name="$PirateNameList" exact="'Eat My Wake'" />
+                <append_to_list name="$PirateNameList" exact="'Fat Bastard'" />
+                <append_to_list name="$PirateNameList" exact="'Bikini Club'" />
+                <append_to_list name="$PirateNameList" exact="'Dee Stress'" />
+                <append_to_list name="$PirateNameList" exact="'Gray Ghost'" />
+                <append_to_list name="$PirateNameList" exact="'For Too Owe'" />
+                <append_to_list name="$PirateNameList" exact="'Musky Star'" />
+                <append_to_list name="$PirateNameList" exact="'Lioness'" />
+                <append_to_list name="$PirateNameList" exact="'Mojo'" />
+                <append_to_list name="$PirateNameList" exact="'Calm Seas'" />
+                <append_to_list name="$PirateNameList" exact="'Artistry'" />
+                <append_to_list name="$PirateNameList" exact="'Far Be It'" />
+                <append_to_list name="$PirateNameList" exact="'Hope It Floats'" />
+                <append_to_list name="$PirateNameList" exact="'Far Away'" />
+                <append_to_list name="$PirateNameList" exact="'Celtic Voyager'" />
+                <append_to_list name="$PirateNameList" exact="'Bermuda Blues'" />
+                <append_to_list name="$PirateNameList" exact="'Choices'" />
+                <append_to_list name="$PirateNameList" exact="'Roxanne'" />
+                <append_to_list name="$PirateNameList" exact="'In Pursuit'" />
+                <append_to_list name="$PirateNameList" exact="'Shark Bait'" />
+                <append_to_list name="$PirateNameList" exact="'Embassea'" />
+                <append_to_list name="$PirateNameList" exact="'Two Burner'" />
+                <append_to_list name="$PirateNameList" exact="'Up To No Good'" />
+                <append_to_list name="$PirateNameList" exact="'Inspiration'" />
+                <append_to_list name="$PirateNameList" exact="'Vagabond'" />
+                <append_to_list name="$PirateNameList" exact="'Grasshopper'" />
+                <append_to_list name="$PirateNameList" exact="'Another Line'" />
+                <append_to_list name="$PirateNameList" exact="'Charmed Life'" />
+                <append_to_list name="$PirateNameList" exact="'Winter Solace'" />
+                <append_to_list name="$PirateNameList" exact="'Heaven'" />
+                <append_to_list name="$PirateNameList" exact="'Moonlight Express'" />
+                <append_to_list name="$PirateNameList" exact="'The Crosswinds'" />
+                <append_to_list name="$PirateNameList" exact="'Go For Broke'" />
+                <append_to_list name="$PirateNameList" exact="'Roxie'" />
+                <append_to_list name="$PirateNameList" exact="'A Yachts Sea'" />
+                <append_to_list name="$PirateNameList" exact="'Tipsea II'" />
+                <append_to_list name="$PirateNameList" exact="'Lake Sunrise'" />
+                <append_to_list name="$PirateNameList" exact="'Wits End'" />
+                <append_to_list name="$PirateNameList" exact="'Sound Investment'" />
+                <append_to_list name="$PirateNameList" exact="'Make It So'" />
+                <append_to_list name="$PirateNameList" exact="'Free Sailing'" />
+                <append_to_list name="$PirateNameList" exact="'Grand Slam'" />
+                <append_to_list name="$PirateNameList" exact="'Nicknack'" />
+                <append_to_list name="$PirateNameList" exact="'Bigfoot'" />
+                <append_to_list name="$PirateNameList" exact="'GinTonic'" />
+                <append_to_list name="$PirateNameList" exact="'Ocean Blue'" />
+                <append_to_list name="$PirateNameList" exact="'Sophie'" />
+                <append_to_list name="$PirateNameList" exact="'Midnight Blues'" />
+                <append_to_list name="$PirateNameList" exact="'Sanity II'" />
+                <append_to_list name="$PirateNameList" exact="'Laguna Breeze'" />
+                <append_to_list name="$PirateNameList" exact="'Alternative'" />
+                <append_to_list name="$PirateNameList" exact="'Quiet Storm'" />
+                <append_to_list name="$PirateNameList" exact="'Island Girl'" />
+                <append_to_list name="$PirateNameList" exact="'Beez Neez'" />
+                <append_to_list name="$PirateNameList" exact="'Second Time Around'" />
+                <append_to_list name="$PirateNameList" exact="'Ally Cat'" />
+                <append_to_list name="$PirateNameList" exact="'Kilt In A Breeze'" />
+                <append_to_list name="$PirateNameList" exact="'Blue Away'" />
+                <append_to_list name="$PirateNameList" exact="'The Odyssey'" />
+                <append_to_list name="$PirateNameList" exact="'Wasted Wages'" />
+                <append_to_list name="$PirateNameList" exact="'Double Endeavour'" />
+                <append_to_list name="$PirateNameList" exact="'Big Buddha'" />
+                <append_to_list name="$PirateNameList" exact="'Eagles Wings'" />
+                <append_to_list name="$PirateNameList" exact="'Triple Threat'" />
+                <append_to_list name="$PirateNameList" exact="'Another Season'" />
+                <append_to_list name="$PirateNameList" exact="'Sea Therapy II'" />
+                <append_to_list name="$PirateNameList" exact="'Arcadia'" />
+                <append_to_list name="$PirateNameList" exact="'Leprechaun II'" />
+                <append_to_list name="$PirateNameList" exact="'Dolphin'" />
+                <append_to_list name="$PirateNameList" exact="'Lively Lady'" />
+                <append_to_list name="$PirateNameList" exact="'Salty Feet'" />
+                <append_to_list name="$PirateNameList" exact="'Buck'" />
+                <append_to_list name="$PirateNameList" exact="'Star Shine'" />
+                <append_to_list name="$PirateNameList" exact="'Amateur Hour'" />
+                <append_to_list name="$PirateNameList" exact="'Celtic Mistress'" />
+                <append_to_list name="$PirateNameList" exact="'Artic Loon'" />
+                <append_to_list name="$PirateNameList" exact="'River Meaderer'" />
+                <append_to_list name="$PirateNameList" exact="'Magic Dragon'" />
+                <append_to_list name="$PirateNameList" exact="'Fair Winds'" />
+                <append_to_list name="$PirateNameList" exact="'Desert Wind'" />
+                <append_to_list name="$PirateNameList" exact="'Star Chaser II'" />
+                <append_to_list name="$PirateNameList" exact="'Sea Wolf'" />
+                <append_to_list name="$PirateNameList" exact="'Quick Cat'" />
+                <append_to_list name="$PirateNameList" exact="'Cayman'" />
+                <append_to_list name="$PirateNameList" exact="'Bearly Behavin'" />
+                <append_to_list name="$PirateNameList" exact="'Winds Way'" />
+                <append_to_list name="$PirateNameList" exact="'ShipsGiggles'" />
+                <append_to_list name="$PirateNameList" exact="'Peaceful'" />
+                <append_to_list name="$PirateNameList" exact="'Amazing Grace III'" />
+                <append_to_list name="$PirateNameList" exact="'Merritime'" />
+                <append_to_list name="$PirateNameList" exact="'Spirit'" />
+                <append_to_list name="$PirateNameList" exact="'Steamy Windows'" />
+                <append_to_list name="$PirateNameList" exact="'Blue Light'" />
+                <append_to_list name="$PirateNameList" exact="'Idle Hour'" />
+                <append_to_list name="$PirateNameList" exact="'Default Route'" />
+                <append_to_list name="$PirateNameList" exact="'Lunatic Edge'" />
+                <append_to_list name="$PirateNameList" exact="'Sentient'" />
+                <append_to_list name="$PirateNameList" exact="'Morning Mist'" />
+                <append_to_list name="$PirateNameList" exact="'Due South'" />
+                <append_to_list name="$PirateNameList" exact="'Final Choice'" />
+                <append_to_list name="$PirateNameList" exact="'Half Moon'" />
+                <append_to_list name="$PirateNameList" exact="'Spirit Of Adventure'" />
+                <append_to_list name="$PirateNameList" exact="'Alluring Wind'" />
+                <append_to_list name="$PirateNameList" exact="'Sheer Joy'" />
+                <append_to_list name="$PirateNameList" exact="'Fat Cat'" />
+                <append_to_list name="$PirateNameList" exact="'Legacy'" />
+                <append_to_list name="$PirateNameList" exact="'Double Dipper'" />
+                <append_to_list name="$PirateNameList" exact="'Silver Seas'" />
+                <append_to_list name="$PirateNameList" exact="'Tiger Lily'" />
+                <append_to_list name="$PirateNameList" exact="'Voodoo Lady'" />
+                <append_to_list name="$PirateNameList" exact="'Miss Scarlet'" />
+                <append_to_list name="$PirateNameList" exact="'Lady Bug'" />
+                <append_to_list name="$PirateNameList" exact="'Out The Blue'" />
+                <append_to_list name="$PirateNameList" exact="'Good Time Habit'" />
+                <append_to_list name="$PirateNameList" exact="'The Compass'" />
+                <append_to_list name="$PirateNameList" exact="'Almost Heaven'" />
+                <append_to_list name="$PirateNameList" exact="'Mischievious'" />
+                <append_to_list name="$PirateNameList" exact="'Blue Velvet'" />
+                <append_to_list name="$PirateNameList" exact="'Reel Success'" />
+                <append_to_list name="$PirateNameList" exact="'Desert Dolphin'" />
+                <append_to_list name="$PirateNameList" exact="'Aspen Mist'" />
+                <append_to_list name="$PirateNameList" exact="'Sliver Of Moon'" />
+                <append_to_list name="$PirateNameList" exact="'Bonafide'" />
+                <append_to_list name="$PirateNameList" exact="'The Dinghy'" />
+                <append_to_list name="$PirateNameList" exact="'Trip Taker'" />
+                <append_to_list name="$PirateNameList" exact="'Sun Seeker'" />
+                <append_to_list name="$PirateNameList" exact="'Cats Paw'" />
+                <append_to_list name="$PirateNameList" exact="'On Our Way'" />
+                <append_to_list name="$PirateNameList" exact="'All That Jazz'" />
+                <append_to_list name="$PirateNameList" exact="'Aftermath'" />
+                <append_to_list name="$PirateNameList" exact="'Sea Walker'" />
+                <append_to_list name="$PirateNameList" exact="'Advantage'" />
+                <append_to_list name="$PirateNameList" exact="'Airborne III'" />
+                <append_to_list name="$PirateNameList" exact="'Dharma'" />
+                <append_to_list name="$PirateNameList" exact="'Voyager III'" />
+                <append_to_list name="$PirateNameList" exact="'Southern Exposure'" />
+                <append_to_list name="$PirateNameList" exact="'Tantalus'" />
+                <append_to_list name="$PirateNameList" exact="'Pacific Lady'" />
+                <append_to_list name="$PirateNameList" exact="'Aura'" />
+                <append_to_list name="$PirateNameList" exact="'Second Wind IV'" />
+                <append_to_list name="$PirateNameList" exact="'Victor'" />
+                <append_to_list name="$PirateNameList" exact="'Harbor Grace'" />
+                <append_to_list name="$PirateNameList" exact="'Negotiator'" />
+                <append_to_list name="$PirateNameList" exact="'Elusion'" />
+                <append_to_list name="$PirateNameList" exact="'Sunrise'" />
+                <append_to_list name="$PirateNameList" exact="'Sea Drifter'" />
+                <append_to_list name="$PirateNameList" exact="'Happy'" />
+                <append_to_list name="$PirateNameList" exact="'Free Wind'" />
+                <append_to_list name="$PirateNameList" exact="'Artsea'" />
+                <append_to_list name="$PirateNameList" exact="'Impact'" />
+                <append_to_list name="$PirateNameList" exact="'Playtime II'" />
+                <append_to_list name="$PirateNameList" exact="'Reel Tours'" />
+                <append_to_list name="$PirateNameList" exact="'Sweet Tea'" />
+                <append_to_list name="$PirateNameList" exact="'Sea Gal'" />
+                <append_to_list name="$PirateNameList" exact="'Penniless'" />
+                <append_to_list name="$PirateNameList" exact="'Predestined'" />
+                <append_to_list name="$PirateNameList" exact="'Avalon Breeze'" />
+                <append_to_list name="$PirateNameList" exact="'Judy'" />
+                <append_to_list name="$PirateNameList" exact="'Nautical Rose'" />
+                <append_to_list name="$PirateNameList" exact="'Elana'" />
+                <append_to_list name="$PirateNameList" exact="'Close To It'" />
+                <append_to_list name="$PirateNameList" exact="'Point Of Sail'" />
+                <append_to_list name="$PirateNameList" exact="'Charger'" />
+                <append_to_list name="$PirateNameList" exact="'Rebel Lady'" />
+                <append_to_list name="$PirateNameList" exact="'Salsa Queen'" />
+                <append_to_list name="$PirateNameList" exact="'Alone Together'" />
+                <append_to_list name="$PirateNameList" exact="'Cuttin Class'" />
+                <append_to_list name="$PirateNameList" exact="'Adoryble'" />
+                <append_to_list name="$PirateNameList" exact="'Sea Jester'" />
+                <append_to_list name="$PirateNameList" exact="'Knotty Buoy'" />
+                <append_to_list name="$PirateNameList" exact="'Notorious'" />
+                <append_to_list name="$PirateNameList" exact="'Nimrod'" />
+                <append_to_list name="$PirateNameList" exact="'Air Power'" />
+                <append_to_list name="$PirateNameList" exact="'Pretty Lady III'" />
+                <append_to_list name="$PirateNameList" exact="'Sandbar II'" />
+                <append_to_list name="$PirateNameList" exact="'Mad Dash'" />
+                <append_to_list name="$PirateNameList" exact="'Peace Quiet'" />
+                <append_to_list name="$PirateNameList" exact="'Ellen'" />
+                <append_to_list name="$PirateNameList" exact="'Goldeneye'" />
+                <append_to_list name="$PirateNameList" exact="'Sea Rascal'" />
+                <append_to_list name="$PirateNameList" exact="'Discovery IV'" />
+                <append_to_list name="$PirateNameList" exact="'Mirage II'" />
+                <append_to_list name="$PirateNameList" exact="'Tina'" />
+                <append_to_list name="$PirateNameList" exact="'Two Pair'" />
+                <append_to_list name="$PirateNameList" exact="'Endless Quest'" />
+                <append_to_list name="$PirateNameList" exact="'American Dreamer'" />
+                <append_to_list name="$PirateNameList" exact="'Hightail'" />
+                <append_to_list name="$PirateNameList" exact="'Zigger Zagger'" />
+                <append_to_list name="$PirateNameList" exact="'The Answer'" />
+                <append_to_list name="$PirateNameList" exact="'Zigga Zagga'" />
+                <append_to_list name="$PirateNameList" exact="'Shock Therapy'" />
+                <append_to_list name="$PirateNameList" exact="'The Best Toy Ever!'" />
+                <append_to_list name="$PirateNameList" exact="'Prosperity'" />
+                <append_to_list name="$PirateNameList" exact="'Reel Work'" />
+                <append_to_list name="$PirateNameList" exact="'Sea Jazz'" />
+                <append_to_list name="$PirateNameList" exact="'Chaotic Harmony'" />
+                <append_to_list name="$PirateNameList" exact="'Cat-a-tonic'" />
+                <append_to_list name="$PirateNameList" exact="'Champagne Sunset'" />
+                <append_to_list name="$PirateNameList" exact="'Morning Glory'" />
+                <append_to_list name="$PirateNameList" exact="'Alternate Reality'" />
+                <append_to_list name="$PirateNameList" exact="'Sinful'" />
+                <append_to_list name="$PirateNameList" exact="'Eleanor'" />
+                <append_to_list name="$PirateNameList" exact="'Anita'" />
+                <append_to_list name="$PirateNameList" exact="'Latin Mistress'" />
+                <append_to_list name="$PirateNameList" exact="'Amigo II'" />
+                <append_to_list name="$PirateNameList" exact="'The Ruptured Duck'" />
+                <append_to_list name="$PirateNameList" exact="'Bold Venture'" />
+                <append_to_list name="$PirateNameList" exact="'Venture'" />
+                <append_to_list name="$PirateNameList" exact="'Morning Star'" />
+                <append_to_list name="$PirateNameList" exact="'Delta One'" />
+                <append_to_list name="$PirateNameList" exact="'Ashley'" />
+                <append_to_list name="$PirateNameList" exact="'No Drama'" />
+                <append_to_list name="$PirateNameList" exact="'Relationship'" />
+                <append_to_list name="$PirateNameList" exact="'Fishtress'" />
+                <append_to_list name="$PirateNameList" exact="'Stitches'" />
+                <append_to_list name="$PirateNameList" exact="'December'" />
+                <append_to_list name="$PirateNameList" exact="'Serenity Found'" />
+                <append_to_list name="$PirateNameList" exact="'Last Straw'" />
+                <append_to_list name="$PirateNameList" exact="'Amphora'" />
+                <append_to_list name="$PirateNameList" exact="'Amazed'" />
+                <append_to_list name="$PirateNameList" exact="'Makin Music'" />
+                <append_to_list name="$PirateNameList" exact="'Moonlight Glory'" />
+                <append_to_list name="$PirateNameList" exact="'Zen'" />
+                <append_to_list name="$PirateNameList" exact="'Blackbear'" />
+                <append_to_list name="$PirateNameList" exact="'Second Chance II'" />
+                <append_to_list name="$PirateNameList" exact="'Big Flash'" />
+                <append_to_list name="$PirateNameList" exact="'Summer Love'" />
+                <append_to_list name="$PirateNameList" exact="'Nauti Lass'" />
+                <append_to_list name="$PirateNameList" exact="'Missing Link'" />
+                <append_to_list name="$PirateNameList" exact="'Bonito'" />
+                <append_to_list name="$PirateNameList" exact="'Bailey'" />
+                <append_to_list name="$PirateNameList" exact="'Miracle'" />
+                <append_to_list name="$PirateNameList" exact="'Blow Me Down'" />
+                <append_to_list name="$PirateNameList" exact="'Whisper'" />
+                <append_to_list name="$PirateNameList" exact="'Chiefs Alibi'" />
+                <append_to_list name="$PirateNameList" exact="'Checkmate'" />
+                <append_to_list name="$PirateNameList" exact="'Second Hand Rose'" />
+                <append_to_list name="$PirateNameList" exact="'Catchalot'" />
+                <append_to_list name="$PirateNameList" exact="'Day Dreamer'" />
+                <append_to_list name="$PirateNameList" exact="'Monkey Business'" />
+                <append_to_list name="$PirateNameList" exact="'Sassea'" />
+                <append_to_list name="$PirateNameList" exact="'Looney-toon'" />
+                <append_to_list name="$PirateNameList" exact="'F.u.b.a.r'" />
+                <append_to_list name="$PirateNameList" exact="'Almost There'" />
+                <append_to_list name="$PirateNameList" exact="'Mainstay'" />
+                <append_to_list name="$PirateNameList" exact="'Irrational'" />
+                <append_to_list name="$PirateNameList" exact="'Up To The Gills'" />
+                <append_to_list name="$PirateNameList" exact="'Big Fatty'" />
+                <append_to_list name="$PirateNameList" exact="'X.T.SEA'" />
+                <append_to_list name="$PirateNameList" exact="'Orion III'" />
+                <append_to_list name="$PirateNameList" exact="'Earth Spinner'" />
+                <append_to_list name="$PirateNameList" exact="'Alternate Route'" />
+                <append_to_list name="$PirateNameList" exact="'The Vital Spark'" />
+                <append_to_list name="$PirateNameList" exact="'Enlightenment'" />
+                <append_to_list name="$PirateNameList" exact="'Somerset'" />
+                <append_to_list name="$PirateNameList" exact="'Natural Mystic'" />
+                <append_to_list name="$PirateNameList" exact="'Art Gypsy'" />
+                <append_to_list name="$PirateNameList" exact="'Lucky Break'" />
+                <append_to_list name="$PirateNameList" exact="'Convinced'" />
+                <append_to_list name="$PirateNameList" exact="'Sugar Bee'" />
+                <append_to_list name="$PirateNameList" exact="'Stress B Gone'" />
+                <append_to_list name="$PirateNameList" exact="'Tequila Flashback'" />
+                <append_to_list name="$PirateNameList" exact="'Sea Deuce'" />
+                <append_to_list name="$PirateNameList" exact="'Resistance Is Futile'" />
+                <append_to_list name="$PirateNameList" exact="'Sea Biscuit'" />
+                <append_to_list name="$PirateNameList" exact="'Pitter Potter'" />
+                <append_to_list name="$PirateNameList" exact="'Headway'" />
+                <append_to_list name="$PirateNameList" exact="'Cat Nap'" />
+                <append_to_list name="$PirateNameList" exact="'Dark Star II'" />
+                <append_to_list name="$PirateNameList" exact="'Calm Waters'" />
+                <append_to_list name="$PirateNameList" exact="'Cross Winds'" />
+                <append_to_list name="$PirateNameList" exact="'Sacred Haven'" />
+                <append_to_list name="$PirateNameList" exact="'Fat Boy'" />
+                <append_to_list name="$PirateNameList" exact="'Beginnings'" />
+                <append_to_list name="$PirateNameList" exact="'Hurricane'" />
+                <append_to_list name="$PirateNameList" exact="'Arrogance'" />
+                <append_to_list name="$PirateNameList" exact="'Well Balanced'" />
+                <append_to_list name="$PirateNameList" exact="'Sweet Jewel'" />
+                <append_to_list name="$PirateNameList" exact="'Toucan II'" />
+                <append_to_list name="$PirateNameList" exact="'Day Off'" />
+                <append_to_list name="$PirateNameList" exact="'Pirate Soul'" />
+                <append_to_list name="$PirateNameList" exact="'Sally'" />
+                <append_to_list name="$PirateNameList" exact="'Joy Of Life'" />
+                <append_to_list name="$PirateNameList" exact="'Little Dream'" />
+                <append_to_list name="$PirateNameList" exact="'Play Pen'" />
+                <append_to_list name="$PirateNameList" exact="'Half Way There'" />
+                <append_to_list name="$PirateNameList" exact="'Sasha'" />
+                <append_to_list name="$PirateNameList" exact="'The Blue Duck'" />
+                <append_to_list name="$PirateNameList" exact="'Wine Knot'" />
+                <append_to_list name="$PirateNameList" exact="'Acappella'" />
+                <append_to_list name="$PirateNameList" exact="'Ass-Kicker'" />
+                <append_to_list name="$PirateNameList" exact="'Someday Is Here'" />
+                <append_to_list name="$PirateNameList" exact="'Martini'" />
+                <append_to_list name="$PirateNameList" exact="'Reliant'" />
+                <append_to_list name="$PirateNameList" exact="'Intrepid'" />
+                <append_to_list name="$PirateNameList" exact="'Antartic Loon'" />
+                <append_to_list name="$PirateNameList" exact="'Adios'" />
+                <append_to_list name="$PirateNameList" exact="'Silent Lady'" />
+                <append_to_list name="$PirateNameList" exact="'Retreat'" />
+                <append_to_list name="$PirateNameList" exact="'Well Deserved'" />
+                <append_to_list name="$PirateNameList" exact="'Feeding Frenzy'" />
+                <append_to_list name="$PirateNameList" exact="'Sunkist'" />
+                <append_to_list name="$PirateNameList" exact="'Alluring'" />
+                <append_to_list name="$PirateNameList" exact="'Colonels Lady'" />
+                <append_to_list name="$PirateNameList" exact="'Chasing Sunsets'" />
+                <append_to_list name="$PirateNameList" exact="'Lucille'" />
+                <append_to_list name="$PirateNameList" exact="'Jeremiah'" />
+                <append_to_list name="$PirateNameList" exact="'Excalibur'" />
+                <append_to_list name="$PirateNameList" exact="'C-Ya'" />
+                <append_to_list name="$PirateNameList" exact="'Yellow Fever'" />
+                <append_to_list name="$PirateNameList" exact="'Good Medicine'" />
+                <append_to_list name="$PirateNameList" exact="'The Fish Whisperer'" />
+                <append_to_list name="$PirateNameList" exact="'Bonejour'" />
+                <append_to_list name="$PirateNameList" exact="'Riddles In The Sand'" />
+                <append_to_list name="$PirateNameList" exact="'Reliance'" />
+                <append_to_list name="$PirateNameList" exact="'Ocean Harmony'" />
+                <append_to_list name="$PirateNameList" exact="'Carnage'" />
+                <append_to_list name="$PirateNameList" exact="'A Sails Call'" />
+                <append_to_list name="$PirateNameList" exact="'Bad Company'" />
+                <append_to_list name="$PirateNameList" exact="'Adventure III'" />
+                <append_to_list name="$PirateNameList" exact="'Time Out'" />
+                <append_to_list name="$PirateNameList" exact="'Ancient Dreamer'" />
+                <append_to_list name="$PirateNameList" exact="'Living Well'" />
+                <append_to_list name="$PirateNameList" exact="'Lil Gypsy'" />
+                <append_to_list name="$PirateNameList" exact="'Friend Ship'" />
+                <append_to_list name="$PirateNameList" exact="'Bittersweet II'" />
+                <append_to_list name="$PirateNameList" exact="'Cat Burglar'" />
+                <append_to_list name="$PirateNameList" exact="'True North'" />
+                <append_to_list name="$PirateNameList" exact="'Seanile'" />
+                <append_to_list name="$PirateNameList" exact="'Galaxy'" />
+                <append_to_list name="$PirateNameList" exact="'Solace II'" />
+                <append_to_list name="$PirateNameList" exact="'Wild Flyer'" />
+                <append_to_list name="$PirateNameList" exact="'Night Owl'" />
+                <append_to_list name="$PirateNameList" exact="'Ego Toy'" />
+                <append_to_list name="$PirateNameList" exact="'Off Course'" />
+                <append_to_list name="$PirateNameList" exact="'Angels Share'" />
+                <append_to_list name="$PirateNameList" exact="'Cheerio'" />
+                <append_to_list name="$PirateNameList" exact="'Pelican Moon'" />
+                <append_to_list name="$PirateNameList" exact="'Knot Salty'" />
+                <append_to_list name="$PirateNameList" exact="'On A Whim'" />
+                <append_to_list name="$PirateNameList" exact="'The Naked Truth'" />
+                <append_to_list name="$PirateNameList" exact="'Liquid'" />
+                <append_to_list name="$PirateNameList" exact="'Audacious'" />
+                <append_to_list name="$PirateNameList" exact="'Eclipse II'" />
+                <append_to_list name="$PirateNameList" exact="'Uptown Girl'" />
+                <append_to_list name="$PirateNameList" exact="'Archimedes'" />
+                <append_to_list name="$PirateNameList" exact="'Amari'" />
+                <append_to_list name="$PirateNameList" exact="'My Nauti Romance'" />
+                <append_to_list name="$PirateNameList" exact="'Miracles'" />
+                <append_to_list name="$PirateNameList" exact="'I Think I Can'" />
+                <append_to_list name="$PirateNameList" exact="'Delta Blues'" />
+                <append_to_list name="$PirateNameList" exact="'WindWater'" />
+                <append_to_list name="$PirateNameList" exact="'Piccolina'" />
+                <append_to_list name="$PirateNameList" exact="'Lavaflow'" />
+                <append_to_list name="$PirateNameList" exact="'Victoria II'" />
+                <append_to_list name="$PirateNameList" exact="'Too Impulsive'" />
+                <append_to_list name="$PirateNameList" exact="'Enough Is Enough'" />
+                <append_to_list name="$PirateNameList" exact="'Bare Necessity'" />
+                <append_to_list name="$PirateNameList" exact="'Mischief'" />
+                <append_to_list name="$PirateNameList" exact="'Break A Leg'" />
+                <append_to_list name="$PirateNameList" exact="'Wary Mary'" />
+                <append_to_list name="$PirateNameList" exact="'Limerick'" />
+                <append_to_list name="$PirateNameList" exact="'Monark'" />
+                <append_to_list name="$PirateNameList" exact="'Bloomies'" />
+                <append_to_list name="$PirateNameList" exact="'No Luck'" />
+                <append_to_list name="$PirateNameList" exact="'Contemplation'" />
+                <append_to_list name="$PirateNameList" exact="'Rapture'" />
+                <append_to_list name="$PirateNameList" exact="'Mystic Sea'" />
+                <append_to_list name="$PirateNameList" exact="'Real Cozy'" />
+                <append_to_list name="$PirateNameList" exact="'Heavenly Daze'" />
+                <append_to_list name="$PirateNameList" exact="'Horseplay'" />
+                <append_to_list name="$PirateNameList" exact="'Traveler'" />
+                <append_to_list name="$PirateNameList" exact="'Nemesis'" />
+                <append_to_list name="$PirateNameList" exact="'Kangaroo'" />
+                <append_to_list name="$PirateNameList" exact="'First Edition'" />
+                <append_to_list name="$PirateNameList" exact="'Nice Pair'" />
+                <append_to_list name="$PirateNameList" exact="'Triage'" />
+                <append_to_list name="$PirateNameList" exact="'Joint Custody'" />
+                <append_to_list name="$PirateNameList" exact="'Challenger'" />
+                <append_to_list name="$PirateNameList" exact="'My Disease'" />
+                <append_to_list name="$PirateNameList" exact="'Time Bandit'" />
+                <append_to_list name="$PirateNameList" exact="'Day Tripper'" />
+                <append_to_list name="$PirateNameList" exact="'Princess Cat'" />
+                <append_to_list name="$PirateNameList" exact="'Contingency'" />
+                <append_to_list name="$PirateNameList" exact="'Spanish Eyes'" />
+                <append_to_list name="$PirateNameList" exact="'Chubby Cheeks'" />
+                <append_to_list name="$PirateNameList" exact="'Endless Summer'" />
+                <append_to_list name="$PirateNameList" exact="'Grizzly Bear'" />
+                <append_to_list name="$PirateNameList" exact="'Calm Spirit'" />
+                <append_to_list name="$PirateNameList" exact="'Probable Cause'" />
+                <append_to_list name="$PirateNameList" exact="'Abandon Land'" />
+                <append_to_list name="$PirateNameList" exact="'Free Life'" />
+                <append_to_list name="$PirateNameList" exact="'Liquid Lady'" />
+                <append_to_list name="$PirateNameList" exact="'Kiwi'" />
+                <append_to_list name="$PirateNameList" exact="'Oyster'" />
+                <append_to_list name="$PirateNameList" exact="'Second Nature'" />
+                <append_to_list name="$PirateNameList" exact="'Tickety Boo'" />
+                <append_to_list name="$PirateNameList" exact="'Becky'" />
+                <append_to_list name="$PirateNameList" exact="'Synergy IV'" />
+                <append_to_list name="$PirateNameList" exact="'TakiMy Time'" />
+                <append_to_list name="$PirateNameList" exact="'Lion Heart'" />
+                <append_to_list name="$PirateNameList" exact="'Sea Cup'" />
+                <append_to_list name="$PirateNameList" exact="'Sunshine Girl'" />
+                <append_to_list name="$PirateNameList" exact="'Brandy'" />
+                <append_to_list name="$PirateNameList" exact="'Blew By Yah'" />
+                <append_to_list name="$PirateNameList" exact="'Laser'" />
+                <append_to_list name="$PirateNameList" exact="'New Moon'" />
+                <append_to_list name="$PirateNameList" exact="'Lizard'" />
+                <append_to_list name="$PirateNameList" exact="'Piece Of Cake'" />
+                <append_to_list name="$PirateNameList" exact="'Shameless Wet Dream'" />
+                <append_to_list name="$PirateNameList" exact="'Stormy'" />
+                <append_to_list name="$PirateNameList" exact="'GettiBass'" />
+                <append_to_list name="$PirateNameList" exact="'Swan Maiden'" />
+                <append_to_list name="$PirateNameList" exact="'C Monster'" />
+                <append_to_list name="$PirateNameList" exact="'Moon Struck'" />
+                <append_to_list name="$PirateNameList" exact="'Rock The Boat'" />
+                <append_to_list name="$PirateNameList" exact="'Live Wire'" />
+                <append_to_list name="$PirateNameList" exact="'Incurable'" />
+                <append_to_list name="$PirateNameList" exact="'Magical'" />
+                <append_to_list name="$PirateNameList" exact="'Blue Horizon'" />
+                <append_to_list name="$PirateNameList" exact="'Lucky II'" />
+                <append_to_list name="$PirateNameList" exact="'Falcon'" />
+                <append_to_list name="$PirateNameList" exact="'Comfortably Numb II'" />
+                <append_to_list name="$PirateNameList" exact="'Navigator'" />
+                <append_to_list name="$PirateNameList" exact="'Zee Best'" />
+                <append_to_list name="$PirateNameList" exact="'Drama Queen'" />
+                <append_to_list name="$PirateNameList" exact="'Enthusiasm'" />
+                <append_to_list name="$PirateNameList" exact="'Mr. Baiter'" />
+                <append_to_list name="$PirateNameList" exact="'Wanderer II'" />
+                <append_to_list name="$PirateNameList" exact="'Healing Touch'" />
+                <append_to_list name="$PirateNameList" exact="'Touch Of Comfort'" />
+                <append_to_list name="$PirateNameList" exact="'Pretty Woman'" />
+                <append_to_list name="$PirateNameList" exact="'Ever Wind'" />
+                <append_to_list name="$PirateNameList" exact="'Grand Finale'" />
+                <append_to_list name="$PirateNameList" exact="'Toms Foolery'" />
+                <append_to_list name="$PirateNameList" exact="'Another Dimension'" />
+                <append_to_list name="$PirateNameList" exact="'Galaxy II'" />
+                <append_to_list name="$PirateNameList" exact="'Deliverance'" />
+                <append_to_list name="$PirateNameList" exact="'Our Island'" />
+                <append_to_list name="$PirateNameList" exact="'Knot A Yacht'" />
+                <append_to_list name="$PirateNameList" exact="'Wind Magic'" />
+                <append_to_list name="$PirateNameList" exact="'Class Act'" />
+                <append_to_list name="$PirateNameList" exact="'Thanks Dad'" />
+                <append_to_list name="$PirateNameList" exact="'Squeeker'" />
+                <append_to_list name="$PirateNameList" exact="'Little Wing'" />
+                <append_to_list name="$PirateNameList" exact="'Follow Me'" />
+                <append_to_list name="$PirateNameList" exact="'Deckadents'" />
+                <append_to_list name="$PirateNameList" exact="'Our Cottage'" />
+                <append_to_list name="$PirateNameList" exact="'Albatross III'" />
+                <append_to_list name="$PirateNameList" exact="'Leah'" />
+                <append_to_list name="$PirateNameList" exact="'Dragonfly II'" />
+                <append_to_list name="$PirateNameList" exact="'Good To Go'" />
+                <append_to_list name="$PirateNameList" exact="'Oz II'" />
+                <append_to_list name="$PirateNameList" exact="'Leeway'" />
+                <append_to_list name="$PirateNameList" exact="'Someday Came'" />
+                <append_to_list name="$PirateNameList" exact="'Sails Meeting'" />
+                <append_to_list name="$PirateNameList" exact="'Perseverance'" />
+                <append_to_list name="$PirateNameList" exact="'Game Getter'" />
+                <append_to_list name="$PirateNameList" exact="'Blue Sky'" />
+                <append_to_list name="$PirateNameList" exact="'Sea Rider'" />
+                <append_to_list name="$PirateNameList" exact="'No Quarter'" />
+                <append_to_list name="$PirateNameList" exact="'Dolphin Dancer'" />
+                <append_to_list name="$PirateNameList" exact="'Day Away'" />
+                <append_to_list name="$PirateNameList" exact="'Chilly'" />
+                <append_to_list name="$PirateNameList" exact="'The Second Time Around'" />
+                <append_to_list name="$PirateNameList" exact="'Flexible Flyer'" />
+                <append_to_list name="$PirateNameList" exact="'Beats Walkn'" />
+                <append_to_list name="$PirateNameList" exact="'Sea++'" />
+                <append_to_list name="$PirateNameList" exact="'Prime'" />
+                <append_to_list name="$PirateNameList" exact="'Low-income Housing'" />
+                <append_to_list name="$PirateNameList" exact="'Monkey Nugget'" />
+                <append_to_list name="$PirateNameList" exact="'Dog Star'" />
+                <append_to_list name="$PirateNameList" exact="'Rage'" />
+                <append_to_list name="$PirateNameList" exact="'Sea Gypsy'" />
+                <append_to_list name="$PirateNameList" exact="'The Conundrum'" />
+                <append_to_list name="$PirateNameList" exact="'Liquidity'" />
+                <append_to_list name="$PirateNameList" exact="'Western Sailer'" />
+                <append_to_list name="$PirateNameList" exact="'A Priority'" />
+                <append_to_list name="$PirateNameList" exact="'Navygator'" />
+                <append_to_list name="$PirateNameList" exact="'Take Flight'" />
+                <append_to_list name="$PirateNameList" exact="'Shazam'" />
+                <append_to_list name="$PirateNameList" exact="'High Point'" />
+                <append_to_list name="$PirateNameList" exact="'Contagious'" />
+                <append_to_list name="$PirateNameList" exact="'Gale'" />
+                <append_to_list name="$PirateNameList" exact="'White Elephant'" />
+                <append_to_list name="$PirateNameList" exact="'Silent Whisper'" />
+                <append_to_list name="$PirateNameList" exact="'Rompidas'" />
+                <append_to_list name="$PirateNameList" exact="'Naive Melody'" />
+                <append_to_list name="$PirateNameList" exact="'Mighty Fine'" />
+                <append_to_list name="$PirateNameList" exact="'Chief Enthusiast'" />
+                <append_to_list name="$PirateNameList" exact="'Terra Nova'" />
+                <append_to_list name="$PirateNameList" exact="'Sapphire'" />
+                <append_to_list name="$PirateNameList" exact="'My Mojo'" />
+                <append_to_list name="$PirateNameList" exact="'Beyond'" />
+                <append_to_list name="$PirateNameList" exact="'Silent Dream'" />
+                <append_to_list name="$PirateNameList" exact="'Offline'" />
+                <append_to_list name="$PirateNameList" exact="'Just For Kicks'" />
+                <append_to_list name="$PirateNameList" exact="'Encore'" />
+                <append_to_list name="$PirateNameList" exact="'Happier Place'" />
+                <append_to_list name="$PirateNameList" exact="'Summers Glory'" />
+                <append_to_list name="$PirateNameList" exact="'Black'" />
+                <append_to_list name="$PirateNameList" exact="'Light Of The Moon'" />
+                <append_to_list name="$PirateNameList" exact="'Temptress II'" />
+                <append_to_list name="$PirateNameList" exact="'Sea You Later'" />
+                <append_to_list name="$PirateNameList" exact="'Wind Chiller'" />
+                <append_to_list name="$PirateNameList" exact="'Spinning Dreams'" />
+                <append_to_list name="$PirateNameList" exact="'Yacht In The C'" />
+                <append_to_list name="$PirateNameList" exact="'Fish Feeder'" />
+                <append_to_list name="$PirateNameList" exact="'Transparency'" />
+                <append_to_list name="$PirateNameList" exact="'Shore Tour'" />
+                <append_to_list name="$PirateNameList" exact="'Rising Star'" />
+                <append_to_list name="$PirateNameList" exact="'The Edge'" />
+                <append_to_list name="$PirateNameList" exact="'Mystic Rose'" />
+                <append_to_list name="$PirateNameList" exact="'Puffin'" />
+                <append_to_list name="$PirateNameList" exact="'Pike'" />
+                <append_to_list name="$PirateNameList" exact="'Dilly Dally'" />
+                <append_to_list name="$PirateNameList" exact="'Endolphin'" />
+                <append_to_list name="$PirateNameList" exact="'Forecast'" />
+                <append_to_list name="$PirateNameList" exact="'Misfit'" />
+                <append_to_list name="$PirateNameList" exact="'Gravy'" />
+                <append_to_list name="$PirateNameList" exact="'Aplomb'" />
+                <append_to_list name="$PirateNameList" exact="'Think First'" />
+                <append_to_list name="$PirateNameList" exact="'Flyin'" />
+                <append_to_list name="$PirateNameList" exact="'Arabella'" />
+                <append_to_list name="$PirateNameList" exact="'Summer Home'" />
+                <append_to_list name="$PirateNameList" exact="'Knot Therapy'" />
+                <append_to_list name="$PirateNameList" exact="'Quark'" />
+                <append_to_list name="$PirateNameList" exact="'Crown Royal'" />
+                <append_to_list name="$PirateNameList" exact="'Awakening'" />
+                <append_to_list name="$PirateNameList" exact="'Ocean Adventure'" />
+                <append_to_list name="$PirateNameList" exact="'Aggressor'" />
+                <append_to_list name="$PirateNameList" exact="'Blu Sky'" />
+                <append_to_list name="$PirateNameList" exact="'Moonlight'" />
+                <append_to_list name="$PirateNameList" exact="'GettiNauti'" />
+                <append_to_list name="$PirateNameList" exact="'Kiwi Winds'" />
+                <append_to_list name="$PirateNameList" exact="'Knot On Duty'" />
+                <append_to_list name="$PirateNameList" exact="'Sparkey'" />
+                <append_to_list name="$PirateNameList" exact="'Miss Grace'" />
+                <append_to_list name="$PirateNameList" exact="'First Attempt'" />
+                <append_to_list name="$PirateNameList" exact="'Gods Gift'" />
+                <append_to_list name="$PirateNameList" exact="'Silver Cloud'" />
+                <append_to_list name="$PirateNameList" exact="'Perfect Partner'" />
+                <append_to_list name="$PirateNameList" exact="'Abigale'" />
+                <append_to_list name="$PirateNameList" exact="'Swoosh'" />
+                <append_to_list name="$PirateNameList" exact="'Middle Sea'" />
+                <append_to_list name="$PirateNameList" exact="'Eagle Dancer'" />
+                <append_to_list name="$PirateNameList" exact="'Ocean Quest'" />
+                <append_to_list name="$PirateNameList" exact="'Viking Ship'" />
+                <append_to_list name="$PirateNameList" exact="'Serendipity IV'" />
+                <append_to_list name="$PirateNameList" exact="'No Bad Days'" />
+                <append_to_list name="$PirateNameList" exact="'Thanks Bitch'" />
+                <append_to_list name="$PirateNameList" exact="'Outta Control'" />
+                <append_to_list name="$PirateNameList" exact="'Lady Belle'" />
+                <append_to_list name="$PirateNameList" exact="'Mermaid Hunter'" />
+                <append_to_list name="$PirateNameList" exact="'Karma'" />
+                <append_to_list name="$PirateNameList" exact="'Spring Spirit'" />
+                <append_to_list name="$PirateNameList" exact="'Luck  Love'" />
+                <append_to_list name="$PirateNameList" exact="'Ginger'" />
+                <append_to_list name="$PirateNameList" exact="'Quantum Evolution'" />
+                <append_to_list name="$PirateNameList" exact="'After You'" />
+                <append_to_list name="$PirateNameList" exact="'Ultimate Therapy'" />
+                <append_to_list name="$PirateNameList" exact="'Wild Horse'" />
+                <append_to_list name="$PirateNameList" exact="'Outrageous'" />
+                <append_to_list name="$PirateNameList" exact="'GettiReel'" />
+                <append_to_list name="$PirateNameList" exact="'Southerly'" />
+                <append_to_list name="$PirateNameList" exact="'Rum With It'" />
+                <append_to_list name="$PirateNameList" exact="'Lady Maria'" />
+                <append_to_list name="$PirateNameList" exact="'Pier Bliss'" />
+                <append_to_list name="$PirateNameList" exact="'Blue Canoe'" />
+                <append_to_list name="$PirateNameList" exact="'One-Up'" />
+                <append_to_list name="$PirateNameList" exact="'Panic Stricken'" />
+                <append_to_list name="$PirateNameList" exact="'Big Sky'" />
+                <append_to_list name="$PirateNameList" exact="'Mindsweeper'" />
+                <append_to_list name="$PirateNameList" exact="'Carolina Joy'" />
+                <append_to_list name="$PirateNameList" exact="'Summer Duck'" />
+                <append_to_list name="$PirateNameList" exact="'Marsh Mellow'" />
+                <append_to_list name="$PirateNameList" exact="'After Four'" />
+                <append_to_list name="$PirateNameList" exact="'Camila'" />
+                <append_to_list name="$PirateNameList" exact="'At Last'" />
+                <append_to_list name="$PirateNameList" exact="'Sea Rose'" />
+                <append_to_list name="$PirateNameList" exact="'Alissa'" />
+                <append_to_list name="$PirateNameList" exact="'The Other Woman'" />
+                <append_to_list name="$PirateNameList" exact="'Coconut Express'" />
+                <append_to_list name="$PirateNameList" exact="'Big Enough'" />
+                <append_to_list name="$PirateNameList" exact="'Angelita'" />
+                <append_to_list name="$PirateNameList" exact="'Free Fallin'" />
+                <append_to_list name="$PirateNameList" exact="'Loan Shark'" />
+                <append_to_list name="$PirateNameList" exact="'Love Is All'" />
+                <append_to_list name="$PirateNameList" exact="'Stimulus Package'" />
+                <append_to_list name="$PirateNameList" exact="'Which Craft?'" />
+                <append_to_list name="$PirateNameList" exact="'Head Shaker'" />
+                <append_to_list name="$PirateNameList" exact="'Exit Strategy'" />
+                <append_to_list name="$PirateNameList" exact="'Lemonaid'" />
+                <append_to_list name="$PirateNameList" exact="'Look Mom'" />
+                <append_to_list name="$PirateNameList" exact="'Innocent Dream'" />
+                <append_to_list name="$PirateNameList" exact="'Blue Bird'" />
+                <append_to_list name="$PirateNameList" exact="'A Pleasure Shared'" />
+                <append_to_list name="$PirateNameList" exact="'Fly Away'" />
+                <append_to_list name="$PirateNameList" exact="'Singularity'" />
+                <append_to_list name="$PirateNameList" exact="'Incentive'" />
+                <append_to_list name="$PirateNameList" exact="'Reel Distracted'" />
+                <append_to_list name="$PirateNameList" exact="'Skedaddle'" />
+                <append_to_list name="$PirateNameList" exact="'Bay Horse'" />
+                <append_to_list name="$PirateNameList" exact="'Natural Winds'" />
+                <append_to_list name="$PirateNameList" exact="'East Of The Land'" />
+                <append_to_list name="$PirateNameList" exact="'Constance'" />
+                <append_to_list name="$PirateNameList" exact="'Attitude Adjustment II'" />
+                <append_to_list name="$PirateNameList" exact="'Sorcery'" />
+                <append_to_list name="$PirateNameList" exact="'Air Goddess'" />
+                <append_to_list name="$PirateNameList" exact="'Take Off'" />
+                <append_to_list name="$PirateNameList" exact="'Little Pike'" />
+                <append_to_list name="$PirateNameList" exact="'Spaz'" />
+                <append_to_list name="$PirateNameList" exact="'Anatolia'" />
+                <append_to_list name="$PirateNameList" exact="'Second Star'" />
+                <append_to_list name="$PirateNameList" exact="'RunniLate'" />
+                <append_to_list name="$PirateNameList" exact="'Summer Breeze II'" />
+                <append_to_list name="$PirateNameList" exact="'Sanctuary IV'" />
+                <append_to_list name="$PirateNameList" exact="'Thankful'" />
+                <append_to_list name="$PirateNameList" exact="'Blue Tango'" />
+                <append_to_list name="$PirateNameList" exact="'Nitty Gritty'" />
+                <append_to_list name="$PirateNameList" exact="'Fantastic'" />
+                <append_to_list name="$PirateNameList" exact="'Special Ocassion'" />
+                <append_to_list name="$PirateNameList" exact="'Healing Waters'" />
+                <append_to_list name="$PirateNameList" exact="'Dream Lover'" />
+                <append_to_list name="$PirateNameList" exact="'Midnight Fishn'" />
+                <append_to_list name="$PirateNameList" exact="'Crews Nest'" />
+                <append_to_list name="$PirateNameList" exact="'Well Adjusted'" />
+                <append_to_list name="$PirateNameList" exact="'Lightning'" />
+                <append_to_list name="$PirateNameList" exact="'Ambition At Bay'" />
+                <append_to_list name="$PirateNameList" exact="'Fancy'" />
+                <append_to_list name="$PirateNameList" exact="'A Winters Dream'" />
+                <append_to_list name="$PirateNameList" exact="'High Adventure'" />
+                <append_to_list name="$PirateNameList" exact="'Lost Inheritance'" />
+                <append_to_list name="$PirateNameList" exact="'Pineapple Girl'" />
+                <append_to_list name="$PirateNameList" exact="'Prospect'" />
+                <append_to_list name="$PirateNameList" exact="'Brown Eyed Girl'" />
+                <append_to_list name="$PirateNameList" exact="'Hooked On You'" />
+                <append_to_list name="$PirateNameList" exact="'Faithful'" />
+                <append_to_list name="$PirateNameList" exact="'Mission Possible'" />
+                <append_to_list name="$PirateNameList" exact="'Taxsea'" />
+                <append_to_list name="$PirateNameList" exact="'Sunshine Forever'" />
+                <append_to_list name="$PirateNameList" exact="'Lizzy'" />
+                <append_to_list name="$PirateNameList" exact="'Overkill'" />
+                <append_to_list name="$PirateNameList" exact="'Dragon Tail'" />
+                <append_to_list name="$PirateNameList" exact="'Mistress II'" />
+                <append_to_list name="$PirateNameList" exact="'New Beginnings'" />
+                <append_to_list name="$PirateNameList" exact="'Susea Q'" />
+                <append_to_list name="$PirateNameList" exact="'Pier Pressure'" />
+                <append_to_list name="$PirateNameList" exact="'Lifes A Beach'" />
+                <append_to_list name="$PirateNameList" exact="'Skinny Dip'" />
+                <append_to_list name="$PirateNameList" exact="'Contentment'" />
+                <append_to_list name="$PirateNameList" exact="'Noble Maiden'" />
+                <append_to_list name="$PirateNameList" exact="'Sea Knight'" />
+                <append_to_list name="$PirateNameList" exact="'Wind Hunter'" />
+                <append_to_list name="$PirateNameList" exact="'Under Estimated'" />
+                <append_to_list name="$PirateNameList" exact="'Spring Wing'" />
+                <append_to_list name="$PirateNameList" exact="'Free Wood'" />
+                <append_to_list name="$PirateNameList" exact="'Aquatic Dream'" />
+                <append_to_list name="$PirateNameList" exact="'Stressless'" />
+                <append_to_list name="$PirateNameList" exact="'E = Mc^2'" />
+                <append_to_list name="$PirateNameList" exact="'Zipper'" />
+                <append_to_list name="$PirateNameList" exact="'Guardian Angel'" />
+                <append_to_list name="$PirateNameList" exact="'Coy Mistress'" />
+                <append_to_list name="$PirateNameList" exact="'Sapphire Waters'" />
+                <append_to_list name="$PirateNameList" exact="'Relaxation'" />
+                <append_to_list name="$PirateNameList" exact="'Ramble On'" />
+                <append_to_list name="$PirateNameList" exact="'Primrose'" />
+                <append_to_list name="$PirateNameList" exact="'The Far Side'" />
+                <append_to_list name="$PirateNameList" exact="'Rose Red'" />
+                <append_to_list name="$PirateNameList" exact="'Lady Of The Lake'" />
+                <append_to_list name="$PirateNameList" exact="'Sea Toy'" />
+                <append_to_list name="$PirateNameList" exact="'Tango'" />
+                <append_to_list name="$PirateNameList" exact="'Snooty'" />
+                <append_to_list name="$PirateNameList" exact="'No Leak Inn'" />
+                <append_to_list name="$PirateNameList" exact="'Perswaysion'" />
+                <append_to_list name="$PirateNameList" exact="'Lively'" />
+                <append_to_list name="$PirateNameList" exact="'Sandy Deck'" />
+                <append_to_list name="$PirateNameList" exact="'The Only One'" />
+                <append_to_list name="$PirateNameList" exact="'Mysterious Mistress'" />
+                <append_to_list name="$PirateNameList" exact="'Reservoir Dog'" />
+                <append_to_list name="$PirateNameList" exact="'Diversion'" />
+                <append_to_list name="$PirateNameList" exact="'Old Dragon'" />
+                <append_to_list name="$PirateNameList" exact="'Restless II'" />
+                <append_to_list name="$PirateNameList" exact="'Blue Days'" />
+                <append_to_list name="$PirateNameList" exact="'Tiny Bubbles'" />
+                <append_to_list name="$PirateNameList" exact="'Second Address'" />
+                <append_to_list name="$PirateNameList" exact="'Expectation'" />
+                <append_to_list name="$PirateNameList" exact="'Heard The Call'" />
+                <append_to_list name="$PirateNameList" exact="'Hey You'" />
+                <append_to_list name="$PirateNameList" exact="'Whiskey Chaser'" />
+                <append_to_list name="$PirateNameList" exact="'Nomad'" />
+                <append_to_list name="$PirateNameList" exact="'Lions Den'" />
+                <append_to_list name="$PirateNameList" exact="'Mother Ocean'" />
+                <append_to_list name="$PirateNameList" exact="'Bandersnatch'" />
+                <append_to_list name="$PirateNameList" exact="'Mud Bug'" />
+                <append_to_list name="$PirateNameList" exact="'Moonlight Dancer'" />
+                <append_to_list name="$PirateNameList" exact="'Knot Easy'" />
+                <append_to_list name="$PirateNameList" exact="'Another Rum Summer'" />
+                <append_to_list name="$PirateNameList" exact="'Barn Swallow'" />
+                <append_to_list name="$PirateNameList" exact="'Celine'" />
+                <append_to_list name="$PirateNameList" exact="'Outnumbered'" />
+                <append_to_list name="$PirateNameList" exact="'Clear Passages'" />
+                <append_to_list name="$PirateNameList" exact="'Rude Awakening'" />
+                <append_to_list name="$PirateNameList" exact="'Wave Rider'" />
+                <append_to_list name="$PirateNameList" exact="'Latitude Adjustment'" />
+                <append_to_list name="$PirateNameList" exact="'Indulgence'" />
+                <append_to_list name="$PirateNameList" exact="'Blue Eyed Girl'" />
+                <append_to_list name="$PirateNameList" exact="'Dreamer Of Dreams'" />
+                <append_to_list name="$PirateNameList" exact="'Launch Pad'" />
+                <append_to_list name="$PirateNameList" exact="'Aero'" />
+                <append_to_list name="$PirateNameList" exact="'Toucan Dream'" />
+                <append_to_list name="$PirateNameList" exact="'Lazy Luck'" />
+                <append_to_list name="$PirateNameList" exact="'Positive Moods'" />
+                <append_to_list name="$PirateNameList" exact="'Black Pelican'" />
+                <append_to_list name="$PirateNameList" exact="'Turtle II'" />
+                <append_to_list name="$PirateNameList" exact="'Euphoria'" />
+                <append_to_list name="$PirateNameList" exact="'First Class'" />
+                <append_to_list name="$PirateNameList" exact="'Candyman'" />
+                <append_to_list name="$PirateNameList" exact="'Summer Daze'" />
+                <append_to_list name="$PirateNameList" exact="'Diamond Shoals'" />
+                <append_to_list name="$PirateNameList" exact="'Blue Swan'" />
+                <append_to_list name="$PirateNameList" exact="'Zinful'" />
+                <append_to_list name="$PirateNameList" exact="'Southern Latitude'" />
+                <append_to_list name="$PirateNameList" exact="'Wind Catcher'" />
+                <append_to_list name="$PirateNameList" exact="'Merger'" />
+                <append_to_list name="$PirateNameList" exact="'Sailing Lady'" />
+                <append_to_list name="$PirateNameList" exact="'Turn The Page'" />
+                <append_to_list name="$PirateNameList" exact="'Bull Frog'" />
+                <append_to_list name="$PirateNameList" exact="'Captured Angel'" />
+                <append_to_list name="$PirateNameList" exact="'South Wind'" />
+                <append_to_list name="$PirateNameList" exact="'Smart Money'" />
+                <append_to_list name="$PirateNameList" exact="'Red Sky'" />
+                <append_to_list name="$PirateNameList" exact="'Gallivanter'" />
+                <append_to_list name="$PirateNameList" exact="'Bessie Rose'" />
+                <append_to_list name="$PirateNameList" exact="'Bay Breeze'" />
+                <append_to_list name="$PirateNameList" exact="'Busy Bee'" />
+                <append_to_list name="$PirateNameList" exact="'Sun Dance II'" />
+                <append_to_list name="$PirateNameList" exact="'Feeling Free'" />
+                <append_to_list name="$PirateNameList" exact="'Sun Diver'" />
+                <append_to_list name="$PirateNameList" exact="'Aye Laddie'" />
+                <append_to_list name="$PirateNameList" exact="'Blew Me'" />
+                <append_to_list name="$PirateNameList" exact="'Swell Dancer'" />
+                <append_to_list name="$PirateNameList" exact="'Nomadic'" />
+                <append_to_list name="$PirateNameList" exact="'Boxer'" />
+                <append_to_list name="$PirateNameList" exact="'White Star'" />
+                <append_to_list name="$PirateNameList" exact="'Make It A Double'" />
+                <append_to_list name="$PirateNameList" exact="'Never Say Never'" />
+                <append_to_list name="$PirateNameList" exact="'Oh Baby!'" />
+                <append_to_list name="$PirateNameList" exact="'Ashleigh'" />
+                <append_to_list name="$PirateNameList" exact="'Dream Of The Cs'" />
+                <append_to_list name="$PirateNameList" exact="'Debt Collector'" />
+                <append_to_list name="$PirateNameList" exact="'Big Bertha'" />
+                <append_to_list name="$PirateNameList" exact="'Paid Premiums'" />
+                <append_to_list name="$PirateNameList" exact="'LosiLures'" />
+                <append_to_list name="$PirateNameList" exact="'Rosalie'" />
+                <append_to_list name="$PirateNameList" exact="'Constant Wind'" />
+                <append_to_list name="$PirateNameList" exact="'No Problem'" />
+                <append_to_list name="$PirateNameList" exact="'No Shoes'" />
+                <append_to_list name="$PirateNameList" exact="'No Shirt'" />
+                <append_to_list name="$PirateNameList" exact="'Saltspray'" />
+                <append_to_list name="$PirateNameList" exact="'Afternoon Delite II'" />
+                <append_to_list name="$PirateNameList" exact="'Sue'" />
+                <append_to_list name="$PirateNameList" exact="'Blue Fusion'" />
+                <append_to_list name="$PirateNameList" exact="'Ambivilance'" />
+                <append_to_list name="$PirateNameList" exact="'Grip Fast'" />
+                <append_to_list name="$PirateNameList" exact="'Make Me Laugh'" />
+                <append_to_list name="$PirateNameList" exact="'Lazy Lady'" />
+                <append_to_list name="$PirateNameList" exact="'Manic Mechanic'" />
+                <append_to_list name="$PirateNameList" exact="'Assignment II'" />
+                <append_to_list name="$PirateNameList" exact="'Miss Communication'" />
+                <append_to_list name="$PirateNameList" exact="'Storm Runner'" />
+                <append_to_list name="$PirateNameList" exact="'Classic Dreams'" />
+                <append_to_list name="$PirateNameList" exact="'Escape Mechanism'" />
+                <append_to_list name="$PirateNameList" exact="'Beer Money'" />
+                <append_to_list name="$PirateNameList" exact="'Deduction'" />
+                <append_to_list name="$PirateNameList" exact="'Knot My Job'" />
+                <append_to_list name="$PirateNameList" exact="'Silent Knight'" />
+                <append_to_list name="$PirateNameList" exact="'Take Time'" />
+                <append_to_list name="$PirateNameList" exact="'Champagne'" />
+                <append_to_list name="$PirateNameList" exact="'Condor'" />
+                <append_to_list name="$PirateNameList" exact="'One Eyed Parrot'" />
+                <append_to_list name="$PirateNameList" exact="'Dolphin Dance'" />
+                <append_to_list name="$PirateNameList" exact="'Fish Grits'" />
+                <append_to_list name="$PirateNameList" exact="'Living Legend'" />
+                <append_to_list name="$PirateNameList" exact="'Waters Edge'" />
+                <append_to_list name="$PirateNameList" exact="'Southern Charm'" />
+                <append_to_list name="$PirateNameList" exact="'Aerowin'" />
+                <append_to_list name="$PirateNameList" exact="'Treasure'" />
+                <append_to_list name="$PirateNameList" exact="'Whale Bone'" />
+                <append_to_list name="$PirateNameList" exact="'Blackbird'" />
+                <append_to_list name="$PirateNameList" exact="'Take Five'" />
+                <append_to_list name="$PirateNameList" exact="'Wicked Lady'" />
+                <append_to_list name="$PirateNameList" exact="'Epilogue'" />
+                <append_to_list name="$PirateNameList" exact="'Shadow Star'" />
+                <append_to_list name="$PirateNameList" exact="'Pirates Treasures'" />
+                <append_to_list name="$PirateNameList" exact="'Bluebird'" />
+                <append_to_list name="$PirateNameList" exact="'Escape Artist'" />
+                <append_to_list name="$PirateNameList" exact="'American Pride'" />
+                <append_to_list name="$PirateNameList" exact="'Zig Zagging'" />
+                <append_to_list name="$PirateNameList" exact="'My Toy'" />
+                <append_to_list name="$PirateNameList" exact="'Wind Angel'" />
+                <append_to_list name="$PirateNameList" exact="'Billabong'" />
+                <append_to_list name="$PirateNameList" exact="'Carousel'" />
+                <append_to_list name="$PirateNameList" exact="'Shooting Star'" />
+                <append_to_list name="$PirateNameList" exact="'Big Bamboo'" />
+                <append_to_list name="$PirateNameList" exact="'Sea Minor'" />
+                <append_to_list name="$PirateNameList" exact="'Leaky Whaka'" />
+                <append_to_list name="$PirateNameList" exact="'No Obligation'" />
+                <append_to_list name="$PirateNameList" exact="'Dealers Choice'" />
+                <append_to_list name="$PirateNameList" exact="'Fear Factory'" />
+                <append_to_list name="$PirateNameList" exact="'Shallow Lady'" />
+                <append_to_list name="$PirateNameList" exact="'Slow Dance'" />
+                <append_to_list name="$PirateNameList" exact="'Sharon'" />
+                <append_to_list name="$PirateNameList" exact="'Nutmeg'" />
+                <append_to_list name="$PirateNameList" exact="'Parrot Isle'" />
+                <append_to_list name="$PirateNameList" exact="'Sustained'" />
+                <append_to_list name="$PirateNameList" exact="'Aye Aye Captain'" />
+                <append_to_list name="$PirateNameList" exact="'Her Majesty'" />
+                <append_to_list name="$PirateNameList" exact="'August'" />
+                <append_to_list name="$PirateNameList" exact="'Obsession III'" />
+                <append_to_list name="$PirateNameList" exact="'Mast Confusion'" />
+                <append_to_list name="$PirateNameList" exact="'Westwind II'" />
+                <append_to_list name="$PirateNameList" exact="'Family Tradition'" />
+                <append_to_list name="$PirateNameList" exact="'Wiggle Room'" />
+                <append_to_list name="$PirateNameList" exact="'Sea Bear'" />
+                <append_to_list name="$PirateNameList" exact="'Two Aces'" />
+                <append_to_list name="$PirateNameList" exact="'Eternity'" />
+                <append_to_list name="$PirateNameList" exact="'Wayward Wind'" />
+                <append_to_list name="$PirateNameList" exact="'So Far So Good'" />
+                <append_to_list name="$PirateNameList" exact="'Trinket'" />
+                <append_to_list name="$PirateNameList" exact="'Nina'" />
+                <append_to_list name="$PirateNameList" exact="'Anticipation'" />
+                <append_to_list name="$PirateNameList" exact="'Audacious II'" />
+                <append_to_list name="$PirateNameList" exact="'Dancing Loon'" />
+                <append_to_list name="$PirateNameList" exact="'Baitfinger'" />
+                <append_to_list name="$PirateNameList" exact="'MakiMemories'" />
+                <append_to_list name="$PirateNameList" exact="'Cajun Moon'" />
+                <append_to_list name="$PirateNameList" exact="'Down Time'" />
+                <append_to_list name="$PirateNameList" exact="'Outta Hand'" />
+                <append_to_list name="$PirateNameList" exact="'Star Bound'" />
+                <append_to_list name="$PirateNameList" exact="'Transcendence'" />
+                <append_to_list name="$PirateNameList" exact="'Rudder Chaos'" />
+                <append_to_list name="$PirateNameList" exact="'Harvester'" />
+                <append_to_list name="$PirateNameList" exact="'Coochie Baby'" />
+                <append_to_list name="$PirateNameList" exact="'Suspicious Aquasition'" />
+                <append_to_list name="$PirateNameList" exact="'Arcadian'" />
+                <append_to_list name="$PirateNameList" exact="'Lost Shaker'" />
+                <append_to_list name="$PirateNameList" exact="'Early Bird'" />
+                <append_to_list name="$PirateNameList" exact="'Algorithm'" />
+                <append_to_list name="$PirateNameList" exact="'Primitive'" />
+                <append_to_list name="$PirateNameList" exact="'Dawn Treader'" />
+                <append_to_list name="$PirateNameList" exact="'Two Loons'" />
+                <append_to_list name="$PirateNameList" exact="'Black Knight'" />
+                <append_to_list name="$PirateNameList" exact="'Bottoms Up'" />
+                <append_to_list name="$PirateNameList" exact="'Merlin'" />
+                <append_to_list name="$PirateNameList" exact="'Eagles Nest II'" />
+                <append_to_list name="$PirateNameList" exact="'Chaos II'" />
+                <append_to_list name="$PirateNameList" exact="'Delicious'" />
+                <append_to_list name="$PirateNameList" exact="'Anywho'" />
+                <append_to_list name="$PirateNameList" exact="'Charlie'" />
+                <append_to_list name="$PirateNameList" exact="'Snickers'" />
+                <append_to_list name="$PirateNameList" exact="'Offshore Haven'" />
+                <append_to_list name="$PirateNameList" exact="'Anchorman'" />
+                <append_to_list name="$PirateNameList" exact="'Special Effort'" />
+                <append_to_list name="$PirateNameList" exact="'Bigfish'" />
+                <append_to_list name="$PirateNameList" exact="'Kindred Spirit II'" />
+                <append_to_list name="$PirateNameList" exact="'Winds Whisper'" />
+                <append_to_list name="$PirateNameList" exact="'Tipsy'" />
+                <append_to_list name="$PirateNameList" exact="'Altair'" />
+                <append_to_list name="$PirateNameList" exact="'Cover Girl'" />
+                <append_to_list name="$PirateNameList" exact="'Princess'" />
+                <append_to_list name="$PirateNameList" exact="'Aqua Therapy'" />
+                <append_to_list name="$PirateNameList" exact="'Moonlight Quest'" />
+                <append_to_list name="$PirateNameList" exact="'Fantail'" />
+                <append_to_list name="$PirateNameList" exact="'Sun Sail'" />
+                <append_to_list name="$PirateNameList" exact="'Marlin'" />
+                <append_to_list name="$PirateNameList" exact="'Never Never Land'" />
+                <append_to_list name="$PirateNameList" exact="'Natural Magic'" />
+                <append_to_list name="$PirateNameList" exact="'Knot At Home'" />
+                <append_to_list name="$PirateNameList" exact="'Finest'" />
+                <append_to_list name="$PirateNameList" exact="'Lady Of New Zealand'" />
+                <append_to_list name="$PirateNameList" exact="'Wind  Wine'" />
+                <append_to_list name="$PirateNameList" exact="'Puddle Jumper'" />
+                <append_to_list name="$PirateNameList" exact="'Dis  Dat'" />
+                <append_to_list name="$PirateNameList" exact="'Stress Relief'" />
+                <append_to_list name="$PirateNameList" exact="'Catnip'" />
+                <append_to_list name="$PirateNameList" exact="'Spanish Dancer'" />
+                <append_to_list name="$PirateNameList" exact="'Top Priority'" />
+                <append_to_list name="$PirateNameList" exact="'Riff Raft'" />
+                <append_to_list name="$PirateNameList" exact="'Wading In Vain'" />
+                <append_to_list name="$PirateNameList" exact="'Split Decision'" />
+                <append_to_list name="$PirateNameList" exact="'My Day Off'" />
+                <append_to_list name="$PirateNameList" exact="'Scarlet Lady'" />
+                <append_to_list name="$PirateNameList" exact="'Escape II'" />
+                <append_to_list name="$PirateNameList" exact="'License To Chill'" />
+                <append_to_list name="$PirateNameList" exact="'Red Ranger'" />
+                <append_to_list name="$PirateNameList" exact="'Sails Office'" />
+                <append_to_list name="$PirateNameList" exact="'Flying Circus'" />
+                <append_to_list name="$PirateNameList" exact="'Tangerine'" />
+                <append_to_list name="$PirateNameList" exact="'Barbara'" />
+                <append_to_list name="$PirateNameList" exact="'Caitie'" />
+                <append_to_list name="$PirateNameList" exact="'Aquaseas'" />
+                <append_to_list name="$PirateNameList" exact="'Sway'" />
+                <append_to_list name="$PirateNameList" exact="'Changing Channels'" />
+                <append_to_list name="$PirateNameList" exact="'Oliver Twist'" />
+                <append_to_list name="$PirateNameList" exact="'Cheers'" />
+                <append_to_list name="$PirateNameList" exact="'Dunkers Delite'" />
+                <append_to_list name="$PirateNameList" exact="'Sweet Pea'" />
+                <append_to_list name="$PirateNameList" exact="'Incognito'" />
+                <append_to_list name="$PirateNameList" exact="'Gypsea Moon'" />
+                <append_to_list name="$PirateNameList" exact="'Summer Salt'" />
+                <append_to_list name="$PirateNameList" exact="'Mischief II'" />
+                <append_to_list name="$PirateNameList" exact="'Eureka'" />
+                <append_to_list name="$PirateNameList" exact="'Rocket Ship'" />
+                <append_to_list name="$PirateNameList" exact="'Blissful Solitude'" />
+                <append_to_list name="$PirateNameList" exact="'Lone Shark'" />
+                <append_to_list name="$PirateNameList" exact="'Out Of Reach'" />
+                <append_to_list name="$PirateNameList" exact="'Drag  Bait'" />
+                <append_to_list name="$PirateNameList" exact="'Snow Dance'" />
+                <append_to_list name="$PirateNameList" exact="'Silent Night'" />
+                <append_to_list name="$PirateNameList" exact="'Bliss'" />
+                <append_to_list name="$PirateNameList" exact="'Gutsy Gal'" />
+                <append_to_list name="$PirateNameList" exact="'Freedom Hunter'" />
+                <append_to_list name="$PirateNameList" exact="'Balls Deep'" />
+                <append_to_list name="$PirateNameList" exact="'Layla'" />
+                <append_to_list name="$PirateNameList" exact="'C Lady'" />
+                <append_to_list name="$PirateNameList" exact="'Idle Time'" />
+                <append_to_list name="$PirateNameList" exact="'Point Of View'" />
+                <append_to_list name="$PirateNameList" exact="'Slip Away'" />
+                <append_to_list name="$PirateNameList" exact="'Wade Sea'" />
+                <append_to_list name="$PirateNameList" exact="'Wanderlust'" />
+                <append_to_list name="$PirateNameList" exact="'My Lady'" />
+                <append_to_list name="$PirateNameList" exact="'Rippling Waters'" />
+                <append_to_list name="$PirateNameList" exact="'Take Five II'" />
+                <append_to_list name="$PirateNameList" exact="'Resolute'" />
+                <append_to_list name="$PirateNameList" exact="'Continuance'" />
+                <append_to_list name="$PirateNameList" exact="'Troubled Waters'" />
+                <append_to_list name="$PirateNameList" exact="'Little Toy'" />
+                <append_to_list name="$PirateNameList" exact="'Star Light'" />
+                <append_to_list name="$PirateNameList" exact="'Highland Mist'" />
+                <append_to_list name="$PirateNameList" exact="'Silent Sun'" />
+                <append_to_list name="$PirateNameList" exact="'Abby Gale'" />
+                <append_to_list name="$PirateNameList" exact="'The Defense Rests'" />
+                <append_to_list name="$PirateNameList" exact="'Mad Waves'" />
+                <append_to_list name="$PirateNameList" exact="'Breakaway'" />
+                <append_to_list name="$PirateNameList" exact="'Independence II'" />
+                <append_to_list name="$PirateNameList" exact="'Island Dancer'" />
+                <append_to_list name="$PirateNameList" exact="'Aqua Nest'" />
+                <append_to_list name="$PirateNameList" exact="'Foxy Lady II'" />
+                <append_to_list name="$PirateNameList" exact="'Summer Joy'" />
+                <append_to_list name="$PirateNameList" exact="'August Moon'" />
+                <append_to_list name="$PirateNameList" exact="'Blew By You'" />
+                <append_to_list name="$PirateNameList" exact="'Reckoning'" />
+                <append_to_list name="$PirateNameList" exact="'For Windless Days'" />
+                <append_to_list name="$PirateNameList" exact="'Deep Thought'" />
+                <append_to_list name="$PirateNameList" exact="'We Earned It'" />
+                <append_to_list name="$PirateNameList" exact="'Pier Pleasure'" />
+                <append_to_list name="$PirateNameList" exact="'Liberty Call'" />
+                <append_to_list name="$PirateNameList" exact="'Silver Wings'" />
+                <append_to_list name="$PirateNameList" exact="'Barely A-wake'" />
+                <append_to_list name="$PirateNameList" exact="'Sails Tax'" />
+                <append_to_list name="$PirateNameList" exact="'Moonlight Ripples'" />
+                <append_to_list name="$PirateNameList" exact="'Windy Wingnut'" />
+            </actions>
+        </cue>
+    </cues>
+</mdscript>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content id="Hard Mode" name="Hard Mode"  description="Hard Mode" author="albysmith" version="2" date="2018-01-09" save="0" >
+ <text language="7" name="Hard Mode" description="Hard Mode" author="albysmith" />
+ <text language="33" name="Hard Mode" description="Hard Mode" author="albysmith" />
+ <text language="34" name="Hard Mode" description="Hard Mode" author="albysmith" />
+ <text language="39" name="Hard Mode" description="Hard Mode" author="albysmith" />
+ <text language="44" name="Hard Mode" description="Hard Mode" author="albysmith" />
+ <text language="49" name="Hard Mode" description="Hard Mode" author="albysmith" />
+ <text language="55" name="Hard Mode" description="Hard Mode" author="albysmith" />
+ <text language="81" name="Hard Mode" description="Hard Mode" author="albysmith" />
+ <text language="82" name="Hard Mode" description="Hard Mode" author="albysmith" />
+ <text language="86" name="Hard Mode" description="Hard Mode" author="albysmith" />
+ <text language="88" name="Hard Mode" description="Hard Mode" author="albysmith" />
+</content>
